@@ -1,4 +1,4 @@
-/* My Reset */
+
 * {
   font-family: Helvetica;
   background-color: black;
@@ -16,7 +16,7 @@ body {
   color: #fff5ee;
 }
 
-/* My navigation bar */
+
 header {
   background-color: #000;
   display: flex;
@@ -29,7 +29,7 @@ header {
   top: 0;
   z-index: 1;
 }
-/* The image logo on the left */
+
 header #logo {
   height: 50px;
   margin: 5px 0px 5px 10px;
@@ -55,7 +55,6 @@ nav li a {
   display: inline-block;
 }
 
-/* The underline effect on :hover */
 nav li a:after {
   content: '';
   position: absolute;
@@ -73,7 +72,6 @@ nav li a:hover:after {
   transform-origin: bottom right;
 }
 
-/* The begin of my Main */
 main {
   display: flex;
   flex-direction: column;
@@ -83,7 +81,6 @@ main {
   opacity: 0.9 !important;
 }
 
-/* The "Hero" section */
 .background-img-one {
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-size: cover;
@@ -108,7 +105,6 @@ main {
   font-weight: bold;
 }
 
-/* "Tea of The Month" Part. */
 .section-two {
   width: 1000px;
 }
@@ -141,7 +137,6 @@ p {
   margin-top: 10px;
 }
 
-/* "Locations" part. */
 .container-locations {
   display: flex;
   flex-direction: row;
@@ -159,7 +154,7 @@ p {
   width: 1200px;
   height: 500px;
 }
-/* The 3 blocs */
+
 .black-bloc-locations {
   display: flex;
   flex-direction: column;
@@ -180,7 +175,6 @@ p {
   font-weight: bold;
 }
 
-/* Contact section on the bottom */
 footer {
   height: 200px;
   display: flex;
@@ -196,7 +190,7 @@ footer a {
   position: relative;
   color: #fff5ee;
 }
-/* underline effect on hover */
+
 footer a:after {
   content: '';
   position: absolute;
@@ -213,14 +207,13 @@ footer a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-/* copyright */
+
 .copyright {
   text-align: left;
   margin-left: 20px;
   font-weight: bold;
 }
 
-/* Responsive for desktop */
 @media only screen and (max-width: 900px ) {
   body {
     padding: 0;
@@ -254,7 +247,6 @@ footer a:hover:after {
   }
 }
 
-/* Responsive for big phone, "phablets" and tablets */
 @media only screen and (min-width: 720px) and (max-width: 899px) {
   body {
     padding: 0;
@@ -289,7 +281,6 @@ footer a:hover:after {
   }
 }
 
-/* Responsive for little phone */
 @media only screen and (min-width: 480px) and (max-width: 719px) {
   body {
     font-size: 16px;
