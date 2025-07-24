@@ -149,16 +149,38 @@ p {
   height: 500px;
 }
 
-box {
-    display: inline;
-    color: seashell;
-    background-color: black;
-    box-sizing: border-box;
-    height: 300px;
-    width: 300px;
-    padding: 20px;
-    margin: 80px auto auto auto;
-    opacity: .8;
+.black-bloc-locations1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  opacity: 1 !important;
+  width: 300px;
+  height: 350px;
+  margin: 0 20px;
+}
+
+.black-bloc-locations2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 350px;
+  margin: 0 20px;
+}
+
+.black-bloc-locations3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 350px;
+  margin: 0 20px;
 }
 
 .title-of-bbl {
